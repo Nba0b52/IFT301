@@ -1,0 +1,79 @@
+html{
+background: url(background.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+nav.horizontal {
+   height: 70px;
+   background-color: none;
+   width: 100%;
+}
+
+nav.horizontal li {
+   background-color: none
+   font-size: 16px;
+   float: left;
+   display: block;
+   height: 50px;
+   line-height: 50px;
+   margin: 0px 5px;
+   text-align: center;
+   text-effects: italics;	
+   width: 180px;
+}
+
+nav.horizontal li a {
+   background-color: blue;
+   -moz-border-radius: 30px/25px;
+   -webkit-border-radius: 30 25px;
+   border-radius: 30px/25px;
+   color: black;
+   display: block;
+   text-decoration: none;
+}
+
+nav.horizontal li a:hover {
+   background-color: blue;
+   color: black;
+}
+body{
+text-align: center;
+}
+
+#main{
+background-color: none;
+float: center;
+width: 600px;
+text-align: center;
+}
+#main >h1{
+text-shadow: 2px 2px black;
+float: center;
+margin: 15px;
+width: 450px;
+color: white;
+text-align: center;
+}
+#main>p{
+font-size: 20px;
+margin: 15px;
+color: white;
+text-align: center;
+}
+img {
+float: center;
+margin 15px;
+width: 350px;
+border-raidus: 50%;
+}
+footer{
+text-align: center;
+color: white;
+}
+aside{
+text-align: center;
+color: white;
+text-decoration: underline;
+}
