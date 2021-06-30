@@ -66,6 +66,12 @@ float: center;
 margin 15px;
 width: 350px;
 }
+dl{
+   font-size: 20px;
+   margin: 15px;
+   color: white;
+   text-align: center;
+}
 footer{
 color: white;
 text-align: center;
